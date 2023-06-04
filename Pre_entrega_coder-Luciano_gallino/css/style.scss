@@ -56,7 +56,6 @@ body{
 
 
 #titulo-nuestro{
-    display: flex;
     padding-top: 0px;
     width: 50%;
     height: 40%;
@@ -65,7 +64,6 @@ body{
 #presentacion{
     font-size: 30px;
     font-weight: bold;
-    display: flex;
     margin-right: 100px;
     text-align: justify;
 }
@@ -75,7 +73,11 @@ body{
     width: 40%;
     height: 50%;
 }
-
+@media screen and (max-width: 800px){
+    .posSmart{
+        flex-direction: column;
+    }
+}
 .contenedorIndex{
     display: flex;
     flex-direction: row;
@@ -101,12 +103,11 @@ body{
 
 #basura{
     display: flex;
-    margin-top: 0px;
-    margin-right: 2%;
+    justify-content: center;
 }
 
 .basura2{
-    justify-content: right;
+    justify-content: center;
     display: flex;
 }
 
