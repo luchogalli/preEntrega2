@@ -151,28 +151,28 @@ body{
 .primerTexto{
     display: flex;
     flex-direction: row;
+    padding-top: 2%;
+
+}
+.textoinformativo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
 }
 .nuestra-historia{
-    display: flex;
-    padding-left: 2%;
+    padding-left: 0%;
     padding-top: 0px;
     text-align: justify;
 }
 .sobre-nosotros{
     padding-left: 0%;
-    display: flex;
-    margin-top: 10%;
+    margin-top: 0%;
     padding-right: 5%;
-    text-align: justify;    
+    text-align: justify;  
+
 }
 
-@media screen and (max-with: 700px){
-    .primerTexto{
-        flex-direction: column;
-        display: inline-flex;
-    }
-    
-}
+
 
 #grafico-proyectos{
     position: absolute;
