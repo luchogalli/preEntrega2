@@ -6,23 +6,25 @@ header{
     background-image: url(../assets/SIyK.gif);
 }
 
-body{
-    font-family: "roboto";
-    background-color: rgb(172, 245, 221);
+body {
+  font-family: "roboto";
+  background-color: rgb(172, 245, 221);
 }
-.alpha{
-    color: green;
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: -60px;
-    display: flex;
-    justify-content: center;
+
+.alpha {
+  color: green;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
 }
-#main{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: -35px;
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
 
 #header-button{
@@ -31,7 +33,7 @@ body{
     border-radius: 5%;
     font-size: x-large;
     font-weight: bold;
-    float: left;
+
     width: 200px;
     &:hover{
         background-color: rgb(200, 245, 157);

@@ -15,16 +15,16 @@ body {
   color: green;
   font-size: 50px;
   font-weight: bold;
-  margin-top: -60px;
+  margin-top: 0px;
   display: flex;
   justify-content: center;
 }
 
-#main {
-  align-items: center;
+.main {
   display: flex;
   justify-content: center;
-  margin-top: -35px;
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
 
 #header-button {
@@ -33,7 +33,6 @@ body {
   border-radius: 5%;
   font-size: x-large;
   font-weight: bold;
-  float: left;
   width: 200px;
 }
 #header-button:hover {
@@ -53,7 +52,6 @@ body {
 }
 
 #titulo-nuestro {
-  padding-top: 0px;
   width: 50%;
   height: 40%;
 }
