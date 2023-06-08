@@ -13,9 +13,9 @@ body {
 
 .alpha {
   color: green;
-  font-size: 50px;
+  font-size: 100px;
   font-weight: bold;
-  margin-top: 0px;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -23,7 +23,7 @@ body {
 .main {
   display: flex;
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 10px;
 }
 
@@ -33,7 +33,6 @@ body {
     border-radius: 5%;
     font-size: x-large;
     font-weight: bold;
-
     width: 200px;
     &:hover{
         background-color: rgb(200, 245, 157);
