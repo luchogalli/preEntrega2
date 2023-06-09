@@ -121,9 +121,7 @@ body {
 
 
 
-.formulario-cliente{
-    display: inline-block;
-}
+
 #gente-feliz{
     padding-top: 0px;
     width: 65%;
@@ -199,9 +197,8 @@ body {
 }
 .formulario-cliente{
     padding-top: 2%;
-    margin-left: 15%;
+    margin-left: 0px;
     display: flex;
-    flex-direction: column;
     
 }
 .formulariogeneralcontacto{
@@ -214,13 +211,27 @@ body {
         flex-direction: column;
     }
 }
-
-
+.container{
+    padding-top: 50px;
+}
+.info{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
 .mapa{
     padding-left: 5%;
     margin-top: 35px;
 
 }
+.titulo-formulario{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+
 
 .googlemaps{
     width: 600px;
