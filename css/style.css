@@ -224,4 +224,12 @@ body {
 .googlemaps {
   width: 600px;
   height: 600px;
+}
+
+@media screen and (max-width: 1200px) {
+  .googlemaps {
+    padding: 10px;
+    width: 100%;
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=style.css.map */
