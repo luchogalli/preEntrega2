@@ -2,6 +2,13 @@
     font-family: "roboto";
     src: url(../assets/Roboto-BlackItalic.ttf);
 }
+
+@mixin displayflex-direction($direction)
+{
+    display: flex;
+    flex-direction: $direction;
+}
+
 header{
     background-image: url(../assets/SIyK.gif);
 }
@@ -50,8 +57,7 @@ body {
 
 
 .posSmart{
-    display: flex;
-    flex-direction: row;
+    @include displayflex-direction(row);
     padding-top: 2%;
 }
 
@@ -76,13 +82,11 @@ body {
     }
 }
 .contenedorIndex{
-    display: flex;
-    flex-direction: row;
+    @include displayflex-direction(row);
 }
 
 .restoPres{
-    display: flex;
-    flex-direction: column;
+    @include displayflex-direction(column);
     padding-left: 2%;
     padding-top: 25px;
 }
@@ -100,12 +104,8 @@ body {
     margin-right: 2%;
 }
 
-#basura{
-    display: flex;
-    justify-content: center;
-}
 
-.basura2{
+.basura{
     justify-content: center;
     display: flex;
 }
@@ -234,15 +234,9 @@ body {
 
 
 .googlemaps{
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    height: 200%;
+    padding: auto;
 
 }
-@media screen and (max-width: 1200px) {
 
-    .googlemaps{
-        padding: 10px;
-        width: 100%;
-        flex-direction: row;
-    }
-}
