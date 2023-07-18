@@ -14,24 +14,24 @@ header{
 }
 
 body {
-  font-family: "roboto";
-  background-color: rgb(172, 245, 221);
+    font-family: "roboto";
+    background-color: rgb(172, 245, 221);
 }
 
 .alpha {
-  color: green;
-  font-size: 100px;
-  font-weight: bold;
-  padding-top: 20px;
-  display: flex;
-  justify-content: center;
+    color: green;
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .main {
-  display: flex;
-  justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 #header-button{
@@ -44,7 +44,7 @@ body {
     &:hover{
         background-color: rgb(200, 245, 157);
         box-shadow: 0 12px  16px 0 rgb(0, 0, 0.24), 0 17px 20px 0;
-
+        
     }
     &:active{
         background-color: #3e8e41;
@@ -75,11 +75,6 @@ body {
     padding-left: 1%;
     width: 40%;
     height: 50%;
-}
-@media screen and (max-width: 800px){
-    .posSmart{
-        flex-direction: column;
-    }
 }
 .contenedorIndex{
     @include displayflex-direction(row);
@@ -115,7 +110,7 @@ body {
     padding-top: 2%;
     height: 90%;
     width: 90%;
-
+    
 }
 
 
@@ -126,14 +121,14 @@ body {
     padding-top: 0px;
     width: 65%;
     height: 54%;
-
+    
     
 }
 .primerTexto{
     display: flex;
     flex-direction: row;
     padding-top: 2%;
-
+    
 }
 .textoinformativo{
     display: flex;
@@ -150,14 +145,10 @@ body {
     margin-top: 0%;
     padding-right: 5%;
     text-align: justify;  
-
-}
-@media screen and (max-width: 800px){
-    .primerTexto{
-        flex-direction: column;
-}
-}
     
+}
+
+
 
 
 
@@ -206,11 +197,7 @@ body {
     flex-direction: row;
 }
 
-@media screen and (max-width: 800px){
-    .lista-down{
-        flex-direction: column;
-    }
-}
+
 .container{
     padding-top: 50px;
 }
@@ -239,5 +226,18 @@ body {
     height: 200%;
     padding: auto;
 
+}
+
+@media screen and (max-width: 800px){
+    .primerTexto{
+        flex-direction: column;
+    }
+    .lista-down{
+        flex-direction: column;
+    }
+    .posSmart{
+        flex-direction: column;
+    }
+    
 }
 
