@@ -1,0 +1,33 @@
+@mixin displayflex-direction($direction)
+{
+    display: flex;
+    flex-direction: $direction;
+}
+
+#header-button{
+    background-color: rgb(105, 179, 9);
+    padding: 10px 18px;
+    border-radius: 5%;
+    font-size: x-large;
+    font-weight: bold;
+    width: 200px;
+    &:hover{
+        background-color: rgb(200, 245, 157);
+        box-shadow: 0 12px  16px 0 rgb(0, 0, 0.24), 0 17px 20px 0;
+        
+    }
+    &:active{
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+}
+
+header{
+    background-image: url(../assets/SIyK.gif);
+}
+
+body {
+    font-family: "roboto";
+    background-color: rgb(172, 245, 221);
+}
