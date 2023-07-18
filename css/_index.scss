@@ -3,19 +3,20 @@
     padding-top: 2%;
 }
 
-
 #presentacion{
     font-size: 30px;
     font-weight: bold;
     margin-right: 100px;
     text-align: justify;
 }
+
 #edificios-intel{
     padding-top: 2%;
     padding-left: 1%;
     width: 40%;
     height: 50%;
 }
+
 .contenedorIndex{
     @include displayflex-direction(row);
 }
@@ -31,6 +32,7 @@
     padding-top: 1%;
     display: flex;
 }
+
 .novedades-text{
     padding-top: 1%;
     margin-left: 2%;
@@ -38,7 +40,6 @@
     display: flex;
     margin-right: 2%;
 }
-
 
 .basura{
     justify-content: center;
@@ -49,6 +50,11 @@
     padding-left: 5%;
     padding-top: 2%;
     height: 90%;
-    width: 90%;
-    
+    width: 90%;    
+}
+
+@media screen and (max-width: 800px){
+    .posSmart{
+        flex-direction: column;
+    }
 }

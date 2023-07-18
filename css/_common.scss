@@ -1,7 +1,28 @@
+@font-face {
+    font-family: "roboto";
+    src: url(../assets/Roboto-BlackItalic.ttf);
+}
+
 @mixin displayflex-direction($direction)
 {
     display: flex;
     flex-direction: $direction;
+}
+
+.alpha {
+    color: green;
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 #header-button{
